@@ -1,0 +1,6 @@
+USE master;
+
+IF NOT EXISTS(SELECT * FROM sys.databases WHERE name = 'MenuDB')
+BEGIN
+	CREATE DATABASE MenuDB
+END;
