@@ -81,7 +81,7 @@ services:
     - "kebab_network"
     environment:
     - "ConnectionStrings__OrderDb=User Id=postgres;Password=password;Host=postgres;Port=5432;Database=OrdersDb;"
-    - "ConnectionStrings__MasterDb=User Id=postgres;Password=password;Host=postgres;Port=5432;"
+    - "ConnectionStrings__Master=User Id=postgres;Password=password;Host=postgres;Port=5432;"
     - "RabbitMq__HostName=rabbitmq"
     - "RabbitMq__UserName=user"
     - "RabbitMq__Password=password"
